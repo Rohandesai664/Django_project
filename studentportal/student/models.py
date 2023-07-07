@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+# this chages iis done in github
 class Student(models.Model):
     StudentId = models.AutoField(primary_key=True)
     StudentName = models.CharField(max_length=100)
