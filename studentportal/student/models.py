@@ -21,7 +21,7 @@ class Teacher(models.Model):
 
     
 
-class Class(models.Model):
+class ClassDesatils(models.Model):
     ClassId = models.AutoField(primary_key=True)
     TeacherName = models.CharField(max_length=100)
     
