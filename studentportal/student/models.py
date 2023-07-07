@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Student(models.Model):
+class StudentInformation(models.Model):
     StudentId = models.AutoField(primary_key=True)
     StudentName = models.CharField(max_length=100)
     StudentLoc = models.CharField(max_length=100)
